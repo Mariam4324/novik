@@ -12,3 +12,7 @@
   margin-top: 69px;
   text-align: center;
 }
+
+.skills__icon {
+    display: block;
+}
