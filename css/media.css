@@ -45,11 +45,21 @@
   .skills__wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+ 
+
   }
 
   .skills__programm:not(:first-child) {
     margin-top: 80px;
+  }
+
+  .portfolio {
+    max-height: 1118px;
+    padding: 81px 0 80px;
+  }
+
+  .portfolio__img {
+    max-width: 316px;
   }
 }

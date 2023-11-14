@@ -1,0 +1,33 @@
+.portfolio {
+  max-height: 2253px;
+  background: #f6f6f6;
+  padding: 112px 0 96px;
+}
+
+.porfolio__title {
+  font-size: 34px;
+  text-align: center;
+}
+
+.porfolio__img {
+  display: block;
+  margin-top: 47px;
+  max-width: 940px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolio__subtitle {
+  display: block;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 42px;
+  transition: 0.5s all;
+}
+
+.portfolio__subtitle:hover {
+  color: #828282;
+}

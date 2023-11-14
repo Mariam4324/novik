@@ -5,4 +5,6 @@
 @import "./sections/main.css";
 @import "./sections/about.css";
 @import "./sections/skills.css";
+@import "./sections/portfolio.css";
+@import "./sections/footer.css";
 @import "./media.css";
