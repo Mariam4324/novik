@@ -27,8 +27,35 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition: 0.5s all;
+  cursor: pointer;
 }
 
 .footer__button {
   margin: 43px auto 0;
+  text-align: center;
+}
+
+.footer__btn:hover {
+  color: #070707;
+  background: #828282;
+}
+
+.footer__icon {
+  cursor: pointer;
+}
+
+.footer__icon {
+  display: block;
+}
+
+.footer__icons {
+  max-width: 343px;
+  margin: 85px auto 0;
+}
+
+.footer__comment {
+    max-width: 244px;
+    text-align: center;
+    margin: 44px auto 0;
 }
