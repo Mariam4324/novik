@@ -18,3 +18,30 @@
   font-weight: 400;
   line-height: normal;
 }
+
+.skills__programm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 167px;
+  min-height: 206px;
+}
+
+.skills__icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.skills__name {
+  max-width: 80px;
+  text-align: center;
+  margin: 24px auto 0;
+}
+
+.skills__stars {
+  margin: 30px auto 0;
+}
+
+.skills__wrapper {
+  margin-top: 80px;
+}

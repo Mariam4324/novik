@@ -8,7 +8,7 @@
   }
 
   .main {
-    min-height: 833px;
+    max-height: 833px;
     padding: 65px 0 83px;
   }
 
@@ -20,14 +20,6 @@
 
   .main__right {
     margin-top: 23px;
-  }
-
-  .main__denis_mobile {
-    display: block;
-  }
-
-  .main__denis {
-    display: none;
   }
 
   .about {
@@ -43,5 +35,21 @@
     display: block;
     max-width: 316px;
     max-height: 261px;
+  }
+
+  .skills {
+    max-height: 1421px;
+    padding: 83px 0 98px;
+  }
+
+  .skills__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .skills__programm:not(:first-child) {
+    margin-top: 80px;
   }
 }

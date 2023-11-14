@@ -1,5 +1,5 @@
 .main {
-  height: 680px;
+  max-height: 680px;
   padding: 40px 0 104px;
 }
 
@@ -29,12 +29,12 @@
   max-width: 940px;
   max-height: 387px;
   object-fit: cover;
-  object-position: center;
+  object-position: 50% 8%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.main__denis_mobile {
+/* .main__denis_mobile {
   display: none;
   margin-top: 36px;
   width: 100%;
@@ -44,4 +44,4 @@
   object-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */

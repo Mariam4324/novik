@@ -1,5 +1,5 @@
 .skills {
-  min-height: 610px;
+  max-height: 610px;
   padding: 91px 0 110px;
 }
 
@@ -15,4 +15,8 @@
 
 .skills__icon {
     display: block;
+}
+
+.skills__name {
+    
 }
