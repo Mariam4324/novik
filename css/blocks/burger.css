@@ -1,0 +1,62 @@
+.burger {
+  display: none;
+}
+.checkbox {
+  position: absolute;
+  top: 17px;
+  right: 0;
+  z-index: 100;
+  width: 35px;
+  height: 23px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.checkbox:checked {
+  position: fixed;
+  top: 66px;
+  right: 29px;
+}
+
+.checkbox:checked ~ .burger__menu {
+  transform: none;
+}
+
+.burger__open {
+  position: absolute;
+  top: 17px;
+  right: 0;
+}
+
+.burger__close {
+  position: absolute;
+  top: 66px;
+  right: 29px;
+  position: absolute;
+  z-index: 90;
+}
+
+.burger__menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.5s all;
+  height: 100vh;
+  z-index: 80;
+  width: 100%;
+  background: #fff;
+  transform: translateX(200%);
+  padding: 66px 0;
+}
+
+.burger__item {
+  display: block;
+  text-align: left;
+  padding: 58px 26px;
+  font-size: 34px;
+}
+
+.burger__item:first-child {
+  padding-top: 0;
+}

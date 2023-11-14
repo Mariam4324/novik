@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Denis Novik</title>
-<link href="https://fonts.cdnfonts.com/css/br-cobane" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/br-segma" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
@@ -14,22 +14,46 @@
     <div class="container">
       <nav>
         <ul class="header__menu flex-aic-sb">
-          <li><a class="header__item second-text" href="#">Home</a></li>
-          <li><a class="header__item second-text" href="#">About me</a></li>
-          <li><a class="header__item second-text" href="#">Skills</a></li>
-          <li><a class="header__item second-text" href="#">Portfolio</a></li>
-          <li><a class="header__item second-text" href="#">Contacts</a></li>
+          <li><a class="header__item second-text" href="#main">Home</a></li>
+          <li><a class="header__item second-text" href="#about">About me</a></li>
+          <li><a class="header__item second-text" href="#skills">Skills</a></li>
+          <li><a class="header__item second-text" href="#portfolio">Portfolio</a></li>
+          <li><a class="header__item second-text" href="#footer">Contacts</a></li>
         </ul>
       </nav>
       <hr class="header__line" />
     </div>
   </header>
 
-  <section class="main">
+  <section id="main" class="main">
     <div class="container">
       <div class="main__person flex-aie-sb">
 
         <h1 class="main__name main-text">Denis Novik</h1>
+
+
+        <div class="burger">
+          <input class="checkbox" type="checkbox">
+          <img class="burger__open" src="./icon/burger.webp" alt="burger">
+          <ul class="burger__menu">
+
+            <div class="burger__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)" fill="#828282"/>
+                <rect x="0.831299" y="19.5566" width="27.3715" height="3.8" transform="rotate(-45 0.831299 19.5566)" fill="#828282"/>
+              </svg>
+            </div>
+
+          <li><a class="burger__item second-text" href="#main">Home</a></li>
+          <li><a class="burger__item second-text" href="#about">About me</a></li>
+          <li><a class="burger__item second-text" href="#skills">Skills</a></li>
+          <li><a class="burger__item second-text" href="#portfolio">Portfolio</a></li>
+          <li><a class="burger__item second-text" href="#footer">Contacts</a></li>
+        </ul>
+        </div>
+
+
+
 
         <div class="main__right">
           <div class="main__post main-text">UX | UI designer</div>
@@ -38,12 +62,16 @@
 
       </div>
 
+
+
+
+
       <img class="main__denis" src="./img/denis.webp" alt="denis" />
 
     </div>
   </section>
 
-  <section class="about">
+  <section id="about" class="about">
     <h2 class="about__title main-text">About me</h2>
     <div class="about__paragraphs">
 
@@ -90,32 +118,36 @@
     </div>
   </section>
 
-  <section class="skills">
+  <section id="skills" class="skills">
     <div class="container">
       <h2 class="skills__title main-text">Skills</h2>
       <div class="skills__subtitle main-text">I work in such programs as</div>
       <div class="skills__wrapper flex-aie-sb">
         <!-- 1 -->
         <div class="skills__programm">
-          <img class="skills__icon" src="./icon/ps@1x.webp" srcset="./icon/ps@1x.webp 1x, ./icon/ps@2x.webp 2x" alt="photoshop">
+          <img class="skills__icon" src="./icon/ps@1x.webp" srcset="./icon/ps@1x.webp 1x, ./icon/ps@2x.webp 2x"
+            alt="photoshop">
           <h3 class="skills__name text-comment">Adobe Photoshop</h3>
           <img class="skills__stars" src="./icon/ps_stars.svg" alt="stars">
         </div>
         <!-- 2 -->
         <div class="skills__programm">
-          <img class="skills__icon" src="./icon/ai@1x.webp" srcset="./icon/ai@1x.webp 1x, ./icon/ai@2x.webp 2x" alt="Adobe Illustrator">
+          <img class="skills__icon" src="./icon/ai@1x.webp" srcset="./icon/ai@1x.webp 1x, ./icon/ai@2x.webp 2x"
+            alt="Adobe Illustrator">
           <h3 class="skills__name text-comment">Adobe Illustrator</h3>
           <img class="skills__stars" src="./icon/ai_stars.webp" alt="stars">
         </div>
         <!-- 3 -->
         <div class="skills__programm">
-          <img class="skills__icon" src="./icon/ae@1x.webp" srcset="./icon/ae@1x.webp 1x, ./icon/ae@2x.webp 2x" alt="Adobe After Effects">
+          <img class="skills__icon" src="./icon/ae@1x.webp" srcset="./icon/ae@1x.webp 1x, ./icon/ae@2x.webp 2x"
+            alt="Adobe After Effects">
           <h3 class="skills__name text-comment">Adobe <br> After Effects</h3>
           <img class="skills__stars" src="./icon/ae_stars.webp" alt="stars">
         </div>
         <!-- 4 -->
         <div class="skills__programm">
-          <img class="skills__icon" src="./icon/figma@1x.webp" srcset="./icon/figma@1x.webp 1x, ./icon/figma@2x.webp 2x" alt="Figma">
+          <img class="skills__icon" src="./icon/figma@1x.webp" srcset="./icon/figma@1x.webp 1x, ./icon/figma@2x.webp 2x"
+            alt="Figma">
           <h3 class="skills__name text-comment">Figma</h3>
           <img class="skills__stars" src="./icon/figma_stars.webp" alt="stars">
         </div>
@@ -124,23 +156,26 @@
     </div>
   </section>
 
-  <section class="portfolio">
+  <section id="portfolio" class="portfolio">
     <div class="container">
       <!-- 1 -->
       <h2 class="porfolio__title main-text">Portfolio</h2>
-      <img class="porfolio__img" src="./img/portfolio_girl@1x.webp" srcset="./img/portfolio_girl@1x.webp 1x, ./img/portfolio_girl@2x.webp 2x" alt="portfolio">
+      <img class="porfolio__img" src="./img/portfolio_girl@1x.webp"
+        srcset="./img/portfolio_girl@1x.webp 1x, ./img/portfolio_girl@2x.webp 2x" alt="portfolio">
       <a class="portfolio__subtitle main-text" href="#">Online fashion store - Homepage</a>
       <!-- 2 -->
-      <img class="porfolio__img" src="./img/reebok@1x.webp" srcset="./img/reebok@1x.webp 1x, ./img/reebok@2x.webp 2x" alt="portfolio">
+      <img class="porfolio__img" src="./img/reebok@1x.webp" srcset="./img/reebok@1x.webp 1x, ./img/reebok@2x.webp 2x"
+        alt="portfolio">
       <a class="portfolio__subtitle main-text" href="#">Reebok Store - Concept</a>
       <!-- 3 -->
-      <img class="porfolio__img" src="./img/braun@1x.webp" srcset="./img/braun@1x.webp 1x, ./img/braun@2x.webp 2x" alt="portfolio">
+      <img class="porfolio__img" src="./img/braun@1x.webp" srcset="./img/braun@1x.webp 1x, ./img/braun@2x.webp 2x"
+        alt="portfolio">
       <a class="portfolio__subtitle main-text" href="#">Braun Landing Page - Concept`</a>
     </div>
   </section>
 
 
-  <footer class="footer">
+  <footer id="footer" class="footer">
     <div class="container">
       <h2 class="footer__title main-text">Contacts</h2>
       <p class="footer__text">Want to know more or just chat? You are welcome!</p>
@@ -150,15 +185,15 @@
 
       <div class="footer__icons flex-aic-sb">
         <!-- 1 -->
-          <img class="footer__icon" src="./icon/in.svg" alt="in">
+        <img class="footer__icon" src="./icon/in.svg" alt="in">
         <!-- 2 -->
-          <img class="footer__icon" src="./icon/inst.svg" alt="inst">
+        <img class="footer__icon" src="./icon/inst.svg" alt="inst">
         <!-- 3 -->
-          <img class="footer__icon" src="./icon/behance.svg" alt="behance">
+        <img class="footer__icon" src="./icon/behance.svg" alt="behance">
         <!-- 4 -->
-          <img class="footer__icon" src="./icon/surface.svg" alt="surface">
+        <img class="footer__icon" src="./icon/surface.svg" alt="surface">
       </div>
-      
+
       <div class="footer__comment text-comment">Like me on <br> LinkedIn, Instagram, Behance, Dribble</div>
 
     </div>
