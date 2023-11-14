@@ -1,0 +1,8 @@
+@import "./config.css";
+@import "./layout.css";
+@import "./blocks/main-text.css";
+@import "./sections/navigation.css";
+@import "./sections/main.css";
+@import "./sections/about.css";
+@import "./sections/skills.css";
+@import "./media.css";

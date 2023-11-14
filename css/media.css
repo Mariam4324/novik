@@ -1,0 +1,47 @@
+@media (max-width: 450px) {
+  .container {
+    max-width: 317px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .main {
+    min-height: 833px;
+    padding: 65px 0 83px;
+  }
+
+  .main__person {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .main__right {
+    margin-top: 23px;
+  }
+
+  .main__denis_mobile {
+    display: block;
+  }
+
+  .main__denis {
+    display: none;
+  }
+
+  .about {
+    min-height: 491px;
+    padding: 81px 0 76px;
+  }
+
+  .about__paragraphs {
+    display: none;
+  }
+
+  .about__paragraphs_mobile {
+    display: block;
+    max-width: 316px;
+    max-height: 261px;
+  }
+}

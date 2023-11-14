@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.flex-aic-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-aie-sb {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}

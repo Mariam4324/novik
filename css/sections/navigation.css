@@ -1,0 +1,24 @@
+.header {
+  height: 88px;
+  padding: 33px 0 31px;
+}
+
+.header__item {
+  transition: 0.5s all;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header__item:hover {
+  color: #070707;
+}
+
+.header__line {
+  margin-top: 31px;
+  max-width: 940px;
+  stroke-width: 1px;
+  stroke: #828282;
+}

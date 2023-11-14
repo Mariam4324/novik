@@ -1,0 +1,14 @@
+.skills {
+  min-height: 610px;
+  padding: 91px 0 110px;
+}
+
+.skills__title {
+  text-align: center;
+  font-size: 34px;
+}
+
+.skills__subtitle {
+  margin-top: 69px;
+  text-align: center;
+}

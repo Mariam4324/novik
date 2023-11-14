@@ -1,0 +1,47 @@
+.main {
+  height: 680px;
+  padding: 40px 0 104px;
+}
+
+.main__name {
+  max-width: 127px;
+  font-size: 47px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main__post {
+  max-width: 200px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main__denis {
+  display: block;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 940px;
+  max-height: 387px;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main__denis_mobile {
+  display: none;
+  margin-top: 36px;
+  width: 100%;
+  max-width: 316px;
+  max-height: 478px;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
