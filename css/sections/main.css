@@ -13,6 +13,10 @@
   text-overflow: ellipsis;
 }
 
+.main__person {
+  position: relative;
+}
+
 .main__post {
   max-width: 200px;
   display: -webkit-box;

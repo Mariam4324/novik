@@ -55,6 +55,11 @@
   text-align: left;
   padding: 58px 26px;
   font-size: 34px;
+  transition: 0.5s all;
+}
+
+.burger__item:hover {
+  color: #070707;
 }
 
 .burger__item:first-child {
