@@ -22,6 +22,10 @@
     margin-top: 23px;
   }
 
+ .porfolio__img {
+  max-height: 171px;
+ }
+
   .about {
     min-height: 491px;
     padding: 81px 0 76px;
