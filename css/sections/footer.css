@@ -28,7 +28,7 @@
 .footer__btn {
   width: 180px;
   height: 42px;
-  padding: 10px 27px 5px 25px;
+  padding: 10px 25px;
   background: #070707;
   border-radius: 42px;
   color: #fff;
@@ -39,6 +39,7 @@
   line-height: normal;
   transition: 0.5s all;
   cursor: pointer;
+  border: none;
 }
 
 .footer__button {
